@@ -44,7 +44,7 @@ class CustomizeDB extends Command
         if($cnfrm)
         {
         DB::statement("ALTER TABLE $table_name RENAME TO $new_table");
-        $this->info("Table renamed SuccessFully");
+        $this->info(" $table_name Table renamed SuccessFully to $new_table");
         }
         else
         {
