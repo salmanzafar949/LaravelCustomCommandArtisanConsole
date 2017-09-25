@@ -11,14 +11,14 @@ class CustomizeDB extends Command
      *
      * @var string
      */
-    protected $signature = 'command:name';
+    protected $signature = 'Customizedb';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'allows you to change table and column name is the db';
 
     /**
      * Create a new command instance.
